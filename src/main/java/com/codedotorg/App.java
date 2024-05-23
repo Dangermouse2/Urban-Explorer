@@ -9,7 +9,7 @@ public class App extends Application {
         launch();
     }
 
-    public void start(Stage primaryStage) {
+    @Override public void start(Stage primaryStage) {
         UrbanExplorer guide = new UrbanExplorer(primaryStage, 400, 400);
         guide.startApp();
     }
